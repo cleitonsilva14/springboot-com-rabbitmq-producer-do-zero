@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: producer
+  rabbitmq:
+    host: localhost
+    username: admin
+    password: admin
+    port: 5672
+    application:
+      name: rabbit-producer
+  server: 8880
+
+server:
+  port: 8880
